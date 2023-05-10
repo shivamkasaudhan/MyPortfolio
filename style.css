@@ -1,16 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .sidebar{
-    background-color: red;
-    width: 20vw;
+    background-color: rgb(249, 246, 246);
+    width: 10vw;
+    font-family: 'Titillium Web', sans-serif;
+    height: 100vh;
     
 }
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
 .main{
-    background-color: yellow;
-    width: 80vw;
+    background-color: rgb(233, 233, 216);
+    width: 90vw;
 }
 .container{
     display: flex;
+}
+.infocontainer{
+    background-color: rgb(49, 248, 182);
+    height: 45vh;
+    width: 80vw;
 }
