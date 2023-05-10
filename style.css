@@ -11,12 +11,12 @@
     
 }
 .sidebar nav{
-    padding: 45px;
+    padding: 25px;
 }
 .sidebar nav li{
     list-style-type: none;
-    font-size: 30px;
-    padding: 33px 0;
+    font-size: 25px;
+    padding: 10px 0;
 
 }
 .main{
@@ -28,6 +28,33 @@
 }
 .infocontainer{
     background-color: rgb(49, 248, 182);
-    height: 45vh;
+    height: 60vh;
     width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.devpic img{
+    height: 60vh;
+}
+.hello{
+    font-size: 85px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 50px;
+
+}
+.button button{
+
 }
