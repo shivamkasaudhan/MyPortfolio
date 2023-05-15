@@ -258,8 +258,9 @@
         <div class="col-lg-5 mr-lg-5 col-12">
           <div class="google-map w-100">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188"
-              width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57351.46721603632!2d81.86445297983902!3d26.050999855556398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a8cfe1f4838ad%3A0x7013f3964bf8c8c3!2sAntu%2C%20Uttar%20Pradesh%20230501!5e0!3m2!1sen!2sin!4v1684154928156!5m2!1sen!2sin"
+              width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
@@ -279,33 +280,6 @@
             </ul>
           </div>
         </div>
-
-        <div class="col-lg-6 col-12">
-          <div class="contact-form">
-            <h2 class="mb-4">Any question or Work? Let's talk</h2>
-
-            <form method="POST">
-              <div class="row">
-                <div class="col-lg-6 col-12">
-                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                </div>
-
-                <div class="col-lg-6 col-12">
-                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                </div>
-
-                <div class="col-12">
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                </div>
-
-                <div class="ml-lg-auto col-lg-5 col-12">
-                  <input type="submit" class="form-control submit-btn" name="submit" value="Send">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
@@ -316,7 +290,7 @@
       <div class="row">
 
         <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">Copyright &copy; Shivam</p>
+          <p class="copyright-text text-center">Designed By  &copy; Shivam</p>
         </div>
 
       </div>
@@ -331,17 +305,6 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/smoothscroll.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby84aD31fCg6niHJGMRNxA6_zY2mXtdyPuw4B_IklybaKT7ZijDd0x-a1nWYI1UDy3vCA/exec'
-    const form = document.forms['google-sheet']
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => alert("Thanks..."))
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
 </body>
 
 </html>
